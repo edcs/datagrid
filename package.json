@@ -1,0 +1,38 @@
+{
+  "name": "edcs-datagrid",
+  "version": "1.0.0",
+  "description": "A little module for building paginated, searchable and sortable datagrid tables.",
+  "author": "Edward Coleridge Smith <e.coleridgesmith@edcs.me>",
+  "homepage": "http://ecs.io",
+  "main": "src/datagrid.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edcs/datagrid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/edcs/datagrid/issues"
+  },
+  "keywords": [
+    "searchbar",
+    "pagination",
+    "table",
+    "datagrid"
+  ],
+  "analyze": true,
+  "license": "MIT",
+  "scripts": {
+    "compile": "webpack src/datagrid.js datagrid.min.js -p"
+  },
+  "dependencies": {
+    "edcs-history": "^1.0.0",
+    "edcs-pagination": "^1.0.0",
+    "edcs-searchbar": "^1.0.0",
+    "edcs-url": "^1.0.0",
+    "handlebars": "^3.0.3",
+    "superagent": "^1.2.0"
+  },
+  "devDependencies": {
+    "webpack": "1.7.2",
+    "handlebars-loader": "^1.1.0"
+  }
+}
