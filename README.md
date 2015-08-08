@@ -4,9 +4,7 @@ A little module for building paginated, searchable and sortable datagrid tables.
 
 ## Install
 
-### NPM + Browserify (recommended)
-
-First install Cycl in your project root.
+First install `edcs-datagrid` in your project root.
 
 ```bash
 $ npm install edcs-datagrid
